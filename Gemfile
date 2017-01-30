@@ -35,11 +35,15 @@ gem 'jbuilder', '~> 2.5'
 # Engine that provides an easy-to-use interface for managing your data
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.0'
 
 # Image manipulation
 gem 'mini_magick'
 gem 'cloudinary'
 gem 'carrierwave'
+
+# User management
+gem 'devise'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
