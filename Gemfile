@@ -45,6 +45,9 @@ gem 'carrierwave'
 # User management
 gem 'devise'
 
+# Elastic search gem
+gem 'searchkick'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
