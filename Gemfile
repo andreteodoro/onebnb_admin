@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 # Engine that provides an easy-to-use interface for managing your data
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', github: 'sferik/rails_admin'
-gem 'rails_admin_rollincode', '~> 1.0'
+gem 'rails_admin_rollincode', :git => 'https://github.com/andreteodoro/rails_admin_custom_theme.git'
 
 # Image manipulation
 gem 'mini_magick'
