@@ -1,4 +1,4 @@
-ailsAdmin.config do |config|
+RailsAdmin.config do |config|
   config.main_app_name = Proc.new { |controller| [ "OneBnb", "Admin - #{controller.params[:action].try(:titleize)}" ] }
 
   ## == Devise ==
