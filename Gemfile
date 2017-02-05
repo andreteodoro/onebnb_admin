@@ -47,7 +47,10 @@ gem 'devise'
 
 # Bootstrap
 gem 'bootstrap-sass'
-gem 'autoprefixer-rails'
+#gem 'autoprefixer-rails'
+
+# Gem para gerar os pdfs
+gem 'prawn-rails'
 
 # Elastic search gem
 gem 'searchkick'
